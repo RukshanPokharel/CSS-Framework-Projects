@@ -6,7 +6,7 @@
 
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-        
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <!-- using cdn link for bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   
@@ -132,8 +132,56 @@
     
   </div>
 </section>
+<hr class="m-0" />
 
-<!-- projects section end -->
+
+<!-- contact section -->
+<section id="contact">
+
+<div class="container-lg">
+  
+  <h1 class="display-6 text-muted fw-bold"> Contact </h1>
+  <div class="text-center">
+    <p class="lead">
+      If you have any questions please leave a message.
+    </p>
+  </div>
+
+  <div class="row justify-content-center">
+<div class="col-lg-6">
+  <!-- bootstrap form classes used -- formlabel, form-control, input-group  -->
+  <form class="mt-2">
+    
+      <label for="inputFullName" class="form-label">Full Name</label>
+      <div class="input-group mb-4">
+        <span class="input-group-text">
+          <i class="bi bi-person-fill text-secondary"></i>
+        </span>
+        <input type="text" class="form-control" placeholder="Name" id="inputFullName">
+      </div>
+    
+
+    <label for="inputEmail" class="form-label">Email address</label>
+    <div class="input-group mb-2">
+      <span class="input-group-text">
+        <i class="bi bi-envelope-fill text-secondary"></i>
+      </span>
+      <input type="email" class="form-control" placeholder="e.g johndoe@example.com" id="inputEmail" aria-describedby="inputemailHelp">
+    </div>
+    <div id="inputemailHelp" class="form-text">your email is safe within us</div>
+
+  <div class="mb-3 mt-4">
+    <label for="inputMessage" class="form-label">Message</label>
+    <textarea class="form-control" id="inputMessage" placeholder="message" rows="3"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+
+</div>
+</div>
+</section>
+<!-- contact section end -->
 
 
 
